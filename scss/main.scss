@@ -1,3 +1,11 @@
+//Base
 @import './base/_reset.scss';
 @import './base/vars';
 @import './base/base';
+
+//Blocks
+@import './blocks/header';
+@import './blocks/nav';
+@import './blocks/info';
+
+
