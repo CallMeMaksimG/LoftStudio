@@ -136,6 +136,11 @@ a:hover {
   font-weight: 700;
 }
 
+.link-bold {
+  color: #D4C17F;
+  font-weight: bold;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -194,6 +199,7 @@ a:hover {
 
 .nav {
   font-size: 14px;
+  letter-spacing: 0.05em;
 }
 
 .nav__list {
@@ -472,6 +478,47 @@ a:hover {
   -ms-grid-columns: 1fr 30px 1fr 30px 1fr 30px 1fr;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer {
+  background: #2D343C;
+  padding: 72px 0 51px;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+
+.footer__row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 30px 1fr 30px 1fr 30px 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.footer__logo {
+  margin-top: -12px;
+}
+
+.footer__nav-list {
+  display: -ms-grid;
+  display: grid;
+  gap: 15px;
+}
+
+.footer__address {
+  display: -ms-grid;
+  display: grid;
+  gap: 20px;
+}
+
+.footer__socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 22px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
