@@ -1,5 +1,13 @@
 .apartments {
+    position: relative;
 
+    &::before {
+        content: "III";
+        @include decoreNumber;
+        right: calc(50% + 555px);
+        transform: translate(50%, 0%);
+        line-height: 1.1;
+    }
 }
 
 .apartments__title {

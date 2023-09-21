@@ -1,5 +1,16 @@
 .benefits {
     padding: 120px 0 120px 0;
+    position: relative;
+
+    
+
+    &::after {
+        content: "II";
+        left: calc(50% + 555px);
+        transform: translate(-50%, 0%);
+        line-height: 1.15;
+        @include decoreNumber;
+    }
 }
 
 .benefits__row {
