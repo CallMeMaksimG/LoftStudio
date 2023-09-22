@@ -831,6 +831,11 @@ a:hover {
   font-size: 14px;
   letter-spacing: 0.05em;
 }
+@media screen and (max-width: 959px) {
+  .footer {
+    padding: 36px 0 25px;
+  }
+}
 
 .footer__row {
   display: -ms-grid;
@@ -838,6 +843,12 @@ a:hover {
   -ms-grid-columns: 1fr 30px 1fr 30px 1fr 30px 1fr;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
+}
+@media screen and (max-width: 959px) {
+  .footer__row {
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 40px 30px;
+  }
 }
 
 .footer__logo {
