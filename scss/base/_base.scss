@@ -60,3 +60,7 @@ a {
     color: $accent;
     font-weight: bold;
 }
+
+.no-scroll {
+    overflow-y: hidden;
+}
