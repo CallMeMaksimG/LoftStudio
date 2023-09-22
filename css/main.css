@@ -429,7 +429,7 @@ a:hover {
 }
 @media screen and (max-width: 959px) {
   .benefits {
-    padding: 40px 0 100px 0;
+    padding: 60px 0 60px 0;
   }
 }
 
@@ -584,6 +584,11 @@ a:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(10.42%, #242B33), color-stop(50.52%, rgba(36, 43, 51, 0)), color-stop(90.1%, #242B33)), -webkit-gradient(linear, left bottom, left top, from(rgba(36, 43, 51, 0.9)), to(rgba(36, 43, 51, 0.9))), url(./../img/cta/cta-bg.jpg), #C4C4C4;
   background: linear-gradient(180deg, #242B33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9) 0%, rgba(36, 43, 51, 0.9) 100%), url(./../img/cta/cta-bg.jpg), #C4C4C4;
 }
+@media screen and (max-width: 959px) {
+  .cta {
+    padding: 60px 0;
+  }
+}
 
 .cta__title {
   margin-bottom: 17px;
@@ -596,12 +601,23 @@ a:hover {
   grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
+@media screen and (max-width: 959px) {
+  .cta__wrapper {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+}
 
 .cta__text {
   line-height: 1.5;
 }
 .cta__text p + p {
   margin-top: 1em;
+}
+@media screen and (max-width: 959px) {
+  .cta__text {
+    font-size: 14px;
+  }
 }
 
 .cta__form {
@@ -610,6 +626,12 @@ a:hover {
   -ms-grid-columns: 1fr 30px 1fr;
   grid-template-columns: 1fr 1fr;
   gap: 35px 30px;
+}
+@media screen and (max-width: 959px) {
+  .cta__form {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
 }
 
 .form__input {
@@ -646,6 +668,13 @@ a:hover {
   color: #E7E7E7;
   text-align: center;
   line-height: 1.23;
+}
+@media screen and (max-width: 959px) {
+  .form__privacy--bottom {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    grid-row: 4/5;
+  }
 }
 
 .form__btn {
