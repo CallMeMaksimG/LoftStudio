@@ -694,6 +694,7 @@ a:hover {
 
 .video {
   position: relative;
+  overflow: hidden;
 }
 .video::after {
   content: "IV";
@@ -743,6 +744,12 @@ a:hover {
           transform: translate(-50%, -50%);
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
+}
+@media screen and (max-width: 959px) {
+  .video__icon {
+    width: 80px;
+    height: 80px;
+  }
 }
 
 .section-map {
