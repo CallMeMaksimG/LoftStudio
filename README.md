@@ -7,6 +7,7 @@
 - SCSS;
 - БЭМ;
 - JS;
-- Подключение API Yandex Map.
+- Подключение API Yandex Map;
+- Адаптив под мобильные устройства.
 
 [OPEN](https://callmemaksimg.github.io/LoftStudio)
